@@ -24,12 +24,10 @@ hass.py
 
 __pycache__
 custom_components/loxone/homeassistant
-.vscode
 ha_data_folder/
 *.py_tmp
 
 # Env file for tests
-.env
 
 # artifacts
 .pytest*
@@ -50,3 +48,9 @@ tmp*
 pyproject.toml
 uv.lock
 .python-version
+
+# Dedicated test virtualenv (see scripts/test). .venv stays reserved
+# for the local Home Assistant runtime used for live Miniserver tests.
+.venv-test/
+config.bat
+node_modules
