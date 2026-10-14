@@ -9,6 +9,7 @@ where username, password host and port are your Loxone login credentials
 
 """
 
+import utils.session
 import asyncio
 import logging
 import sys
